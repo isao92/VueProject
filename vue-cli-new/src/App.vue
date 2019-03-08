@@ -3,10 +3,12 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/module9">Module #9</router-link>
     </div>
     <!-- <ServerStats></ServerStats> -->
     <router-view />
+    <div>
+    </div>
   </div>
 </div>
 </template>
@@ -37,5 +39,9 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+h2{
+  color: blue;
 }
 </style>
