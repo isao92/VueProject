@@ -4,7 +4,8 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/secondProject">Second Project</router-link> |
-      <router-link to="/module9">Module #9</router-link>
+      <router-link to="/module9">Module #9</router-link> |
+      <router-link to="/module11">Module #11</router-link>
     </div>
     <!-- <ServerStats></ServerStats> -->
     <router-view />

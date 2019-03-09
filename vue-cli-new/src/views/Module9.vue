@@ -26,9 +26,9 @@
 </template>
 
 <script>
-import Quote from '../components/Quote.vue'
-import Author from '../components/Author.vue'
-import New from '../components/New.vue'
+import Quote from '../components/QuoteComponents/Quote.vue'
+import Author from '../components/QuoteComponents/Author.vue'
+import New from '../components/QuoteComponents/New.vue'
 export default {
   data: function () {
     return {

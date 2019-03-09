@@ -16,9 +16,9 @@
 </template>
 
 <script>
-import ProjectGridQuote from '../components/QuoteGrid.vue'
-import NewProjectQuote from '../components/NewProjectQuote.vue'
-import Header from '../components/Header.vue'
+import ProjectGridQuote from '../components/SecondProjectComponents/QuoteGrid.vue'
+import NewProjectQuote from '../components/SecondProjectComponents/NewProjectQuote.vue'
+import Header from '../components/SecondProjectComponents/Header.vue'
 export default {
   data: function () {
     return {
