@@ -3,6 +3,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
+      <router-link to="/secondProject">Second Project</router-link> |
       <router-link to="/module9">Module #9</router-link>
     </div>
     <!-- <ServerStats></ServerStats> -->
@@ -12,6 +13,7 @@
   </div>
 </div>
 </template>
+
 <script>
 export default {
   name: 'App',
