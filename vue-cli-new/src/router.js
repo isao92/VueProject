@@ -30,6 +30,14 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Module11.vue')
     },
     {
+      path: '/module12',
+      name: 'module12',
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ './views/Module12.vue')
+    },
+    {
       path: '/secondProject',
       name: 'secondProject',
       // route level code-splitting
