@@ -8,7 +8,8 @@
       <router-link to="/module11">Module #11</router-link> |
       <router-link to="/module12">Module #12</router-link> |
       <router-link to="/module13">Module #13</router-link> |
-      <router-link to="/module14">Module #14</router-link>
+      <router-link to="/module14">Module #14</router-link> |
+      <router-link to="/miniApp">Mini App</router-link>
     </div>
     <!-- <ServerStats></ServerStats> -->
     <router-view />
