@@ -31,7 +31,7 @@ export default {
           let currentColor = mainColor
           setTimeout (() => {
             setInterval(() => {
-              currentColor == secondColor ? currentColor = mainColor : currentColor = secondColor
+              currentColor === secondColor ? currentColor = mainColor : currentColor = secondColor
               if (binding.arg === 'background') {
                 el.style.backgroundColor = currentColor
               } else {

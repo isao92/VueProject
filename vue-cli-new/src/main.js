@@ -6,6 +6,16 @@ import './registerServiceWorker'
 
 Vue.config.productionTip = false
 
+Vue.filter('to-lowercase', function (value) {
+  return value.toLowerCase()
+})
+
+Vue.mixin({
+  created () {
+    console.log('Global Mixin - Created Hook')
+  }
+})
+
 Vue.directive('highlight', {
   bind (el, binding, vnode) {
     // el.style.backgroundColor = binding.value
